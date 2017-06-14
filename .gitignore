@@ -1,0 +1,7 @@
+UserInterfaceState.xcuserstate
+cartfile
+Cartfile.resolved
+Breakpoints_v2.xcbkptlist
+*.DS_Store
+Pods/*
+*.xcscmblueprint

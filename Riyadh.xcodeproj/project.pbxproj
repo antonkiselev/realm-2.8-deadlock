@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1069E10F1EF1813A00C0451C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069E1081EF1813A00C0451C /* String.swift */; };
+		1069E1101EF1813A00C0451C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069E1091EF1813A00C0451C /* AppDelegate.swift */; };
+		1069E1111EF1813A00C0451C /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069E10A1EF1813A00C0451C /* Dao.swift */; };
+		1069E1121EF1813A00C0451C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069E10B1EF1813A00C0451C /* Models.swift */; };
+		1069E1131EF1813A00C0451C /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1069E10C1EF1813A00C0451C /* News.storyboard */; };
+		1069E1141EF1813A00C0451C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069E10D1EF1813A00C0451C /* NewsController.swift */; };
+		1069E1151EF1813A00C0451C /* sampleNews.json in Resources */ = {isa = PBXBuildFile; fileRef = 1069E10E1EF1813A00C0451C /* sampleNews.json */; };
+		3DBFAD61E46371B616BCCAEE /* Pods_Riyadh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A93FB0C7134330F3020EE0E /* Pods_Riyadh.framework */; };
+		F720391C1E5CA8CC001AEAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72039191E5CA8CC001AEAAE /* Assets.xcassets */; };
+		F786FD1C1E687D9B00675CD1 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F786FD1B1E687D9B00675CD1 /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F77E29C31E5B50E500011862 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1069E1061EF1813900C0451C /* Riyadh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riyadh-Bridging-Header.h"; sourceTree = "<group>"; };
+		1069E1081EF1813A00C0451C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1069E1091EF1813A00C0451C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1069E10A1EF1813A00C0451C /* Dao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		1069E10B1EF1813A00C0451C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1069E10C1EF1813A00C0451C /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		1069E10D1EF1813A00C0451C /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		1069E10E1EF1813A00C0451C /* sampleNews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleNews.json; sourceTree = "<group>"; };
+		1069E1161EF1834900C0451C /* Riyadh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riyadh.entitlements; sourceTree = "<group>"; };
+		1ECA4396718C5FCB607F939C /* Pods-Riyadh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riyadh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riyadh/Pods-Riyadh.debug.xcconfig"; sourceTree = "<group>"; };
+		66D51CC69415298C5D23980B /* Pods-Riyadh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riyadh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riyadh/Pods-Riyadh.release.xcconfig"; sourceTree = "<group>"; };
+		6A93FB0C7134330F3020EE0E /* Pods_Riyadh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riyadh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89E291864854B7B3D016EA8 /* Pods-Riyadh.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riyadh.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Riyadh/Pods-Riyadh.appstore.xcconfig"; sourceTree = "<group>"; };
+		F72039191E5CA8CC001AEAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F720391B1E5CA8CC001AEAAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77E29A61E5B336700011862 /* Riyadh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riyadh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F786FD1B1E687D9B00675CD1 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77E29A31E5B336200011862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F786FD1C1E687D9B00675CD1 /* SafariServices.framework in Frameworks */,
+				3DBFAD61E46371B616BCCAEE /* Pods_Riyadh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1069E1071EF1813A00C0451C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1069E1081EF1813A00C0451C /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5967281C5EFFAC8A6C623B7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F786FD1B1E687D9B00675CD1 /* SafariServices.framework */,
+				6A93FB0C7134330F3020EE0E /* Pods_Riyadh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD51C52AE6935A93CDEFBD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA4396718C5FCB607F939C /* Pods-Riyadh.debug.xcconfig */,
+				66D51CC69415298C5D23980B /* Pods-Riyadh.release.xcconfig */,
+				C89E291864854B7B3D016EA8 /* Pods-Riyadh.appstore.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F72039181E5CA8CC001AEAAE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F720391B1E5CA8CC001AEAAE /* Info.plist */,
+				1069E1161EF1834900C0451C /* Riyadh.entitlements */,
+				F72039191E5CA8CC001AEAAE /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F77E299D1E5B336200011862 = {
+			isa = PBXGroup;
+			children = (
+				F77E29A81E5B336700011862 /* Riyadh */,
+				F77E29A71E5B336700011862 /* Products */,
+				AD51C52AE6935A93CDEFBD4F /* Pods */,
+				5967281C5EFFAC8A6C623B7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F77E29A71E5B336700011862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77E29A61E5B336700011862 /* Riyadh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77E29A81E5B336700011862 /* Riyadh */ = {
+			isa = PBXGroup;
+			children = (
+				1069E1071EF1813A00C0451C /* Extensions */,
+				1069E1091EF1813A00C0451C /* AppDelegate.swift */,
+				1069E10A1EF1813A00C0451C /* Dao.swift */,
+				1069E10B1EF1813A00C0451C /* Models.swift */,
+				1069E10C1EF1813A00C0451C /* News.storyboard */,
+				1069E10D1EF1813A00C0451C /* NewsController.swift */,
+				1069E10E1EF1813A00C0451C /* sampleNews.json */,
+				F72039181E5CA8CC001AEAAE /* SupportingFiles */,
+				1069E1061EF1813900C0451C /* Riyadh-Bridging-Header.h */,
+			);
+			path = Riyadh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77E29A51E5B336200011862 /* Riyadh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77E29B81E5B336800011862 /* Build configuration list for PBXNativeTarget "Riyadh" */;
+			buildPhases = (
+				2359D31B1C24016C6434274C /* [CP] Check Pods Manifest.lock */,
+				F77E29A21E5B336200011862 /* Sources */,
+				F77E29A31E5B336200011862 /* Frameworks */,
+				F77E29A41E5B336200011862 /* Resources */,
+				F77E29C31E5B50E500011862 /* Embed Frameworks */,
+				743393617D36CD25E362BBF5 /* [CP] Embed Pods Frameworks */,
+				CAB880597736518B366DBDE4 /* [CP] Copy Pods Resources */,
+				109EDD681EE1C6FA007E27C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riyadh;
+			productName = Riyadh;
+			productReference = F77E29A61E5B336700011862 /* Riyadh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77E299E1E5B336200011862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cuberto LLC";
+				TargetAttributes = {
+					F77E29A51E5B336200011862 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SK7A63GXF6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F77E29A11E5B336200011862 /* Build configuration list for PBXProject "Riyadh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77E299D1E5B336200011862;
+			productRefGroup = F77E29A71E5B336700011862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77E29A51E5B336200011862 /* Riyadh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77E29A41E5B336200011862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720391C1E5CA8CC001AEAAE /* Assets.xcassets in Resources */,
+				1069E1151EF1813A00C0451C /* sampleNews.json in Resources */,
+				1069E1131EF1813A00C0451C /* News.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109EDD681EE1C6FA007E27C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"FIXME:\" #TAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\n\nif [ \"$CONFIGURATION\" != \"Debug\" ]; then\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\nelse\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ warning: \\$1/\"\nfi";
+		};
+		2359D31B1C24016C6434274C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		743393617D36CD25E362BBF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riyadh/Pods-Riyadh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB880597736518B366DBDE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riyadh/Pods-Riyadh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77E29A21E5B336200011862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1069E1101EF1813A00C0451C /* AppDelegate.swift in Sources */,
+				1069E10F1EF1813A00C0451C /* String.swift in Sources */,
+				1069E1111EF1813A00C0451C /* Dao.swift in Sources */,
+				1069E1141EF1813A00C0451C /* NewsController.swift in Sources */,
+				1069E1121EF1813A00C0451C /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F77E29B61E5B336800011862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADERMAP_USES_VFS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77E29B71E5B336800011862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADERMAP_USES_VFS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77E29B91E5B336800011862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECA4396718C5FCB607F939C /* Pods-Riyadh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Riyadh/Riyadh.entitlements;
+				DEVELOPMENT_TEAM = SK7A63GXF6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Riyadh/Frameworks",
+					"$(PROJECT_DIR)/Riyadh/External",
+				);
+				INFOPLIST_FILE = Riyadh/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuberto.Riyadh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07663e95-cb4d-49f7-a10c-d1979da072ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Riyadh Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "Riyadh/Riyadh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F77E29BA1E5B336800011862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D51CC69415298C5D23980B /* Pods-Riyadh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Riyadh/Riyadh.entitlements;
+				DEVELOPMENT_TEAM = SK7A63GXF6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Riyadh/Frameworks",
+					"$(PROJECT_DIR)/Riyadh/External",
+				);
+				INFOPLIST_FILE = Riyadh/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuberto.Riyadh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07663e95-cb4d-49f7-a10c-d1979da072ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Riyadh Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "Riyadh/Riyadh-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F77E29BB1E5B374100011862 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "APPSTORE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADERMAP_USES_VFS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		F77E29BC1E5B374100011862 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89E291864854B7B3D016EA8 /* Pods-Riyadh.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Riyadh/Riyadh.entitlements;
+				DEVELOPMENT_TEAM = SK7A63GXF6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Riyadh/Frameworks",
+					"$(PROJECT_DIR)/Riyadh/External",
+				);
+				INFOPLIST_FILE = Riyadh/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuberto.Riyadh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb4850ee-b266-4c61-a6ac-a21e5da9a154";
+				PROVISIONING_PROFILE_SPECIFIER = "Riyadh Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "Riyadh/Riyadh-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77E29A11E5B336200011862 /* Build configuration list for PBXProject "Riyadh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77E29B61E5B336800011862 /* Debug */,
+				F77E29B71E5B336800011862 /* Release */,
+				F77E29BB1E5B374100011862 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77E29B81E5B336800011862 /* Build configuration list for PBXNativeTarget "Riyadh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77E29B91E5B336800011862 /* Debug */,
+				F77E29BA1E5B336800011862 /* Release */,
+				F77E29BC1E5B374100011862 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77E299E1E5B336200011862 /* Project object */;
+}

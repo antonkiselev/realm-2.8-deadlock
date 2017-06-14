@@ -1,0 +1,27 @@
+PODS:
+  - ObjectMapper (2.2.7)
+  - ObjectMapper+Realm (0.3):
+    - ObjectMapper
+    - RealmSwift
+  - Realm (2.8.1):
+    - Realm/Headers (= 2.8.1)
+  - Realm/Headers (2.8.1)
+  - RealmSwift (2.8.1):
+    - Realm (= 2.8.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ObjectMapper+Realm
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  ObjectMapper+Realm: 98992926f775a4fdf1c025541b97c78119f15b8a
+  Realm: 2627602ad6818451f0cb8c2a6e072f7f10a5f360
+  RealmSwift: 4764ca7657f2193c256fb032c0b123926f70dbcd
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: e7081c5c6f6e718fa714b3ad617f98fa526b12d7
+
+COCOAPODS: 1.2.1
